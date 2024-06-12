@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="学生管理系统">
+  <Items>
+    <LogicalFolder Name="连接" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="HUAWEI:HUAWEI\邓道霖">
+          <Created>2024-06-12T10:28:17.7667589+08:00</Created>
+          <Type>SQL</Type>
+          <Server>HUAWEI</Server>
+          <UserName />
+          <Authentication>Windows 身份验证</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="查询" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HUAWEI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HUAWEI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="表数据.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HUAWEI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HUAWEI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>表数据.sql</FullPath>
+        </FileNode>
+        <FileNode Name="查询操作.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HUAWEI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HUAWEI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>查询操作.sql</FullPath>
+        </FileNode>
+        <FileNode Name="建表.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:HUAWEI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>HUAWEI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>建表.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="杂项" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
