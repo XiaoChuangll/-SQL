@@ -79,3 +79,47 @@ CREATE TABLE cjb (
     FOREIGN KEY (学号) REFERENCES xsb(学号),
     FOREIGN KEY (课程号) REFERENCES kcb(课程号)
 );
+
+# 学生成绩管理系统
+
+该系统用于管理学生的成绩信息，包括学生基本信息、课程信息和成绩信息。
+
+## 操作说明
+
+### 查询学生信息
+
+```sql
+-- 查询所有学生信息
+SELECT * FROM xsb;
+
+-- 查询特定学生信息（以学号为例）
+SELECT * FROM xsb WHERE 学号 = '4101220429';
+
+```sql
+-- 查询所有课程信息
+SELECT * FROM kcb;
+
+-- 查询特定课程信息（以课程号为例）
+SELECT * FROM kcb WHERE 课程号 = '101';
+
+```sql
+-- 查询所有学生成绩信息
+SELECT * FROM cjb;
+
+-- 查询特定学生成绩信息（以学号为例）
+SELECT * FROM cjb WHERE 学号 = '4101220429';
+
+```sql
+-- 添加学生信息
+INSERT INTO xsb (学号, 姓名, 性别, 出生日期, 专业, 总学分, 备注)
+VALUES ('学号', '姓名', '性别', '出生日期', '专业', 总学分, '备注');
+
+```sql
+-- 修改学生信息（以姓名为例）
+UPDATE xsb SET 姓名 = '新姓名' WHERE 学号 = '要修改的学号';
+
+```sql
+-- 删除学生信息（以学号为例）
+DELETE FROM xsb WHERE 学号 = '要删除的学号';
+
+
