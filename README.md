@@ -92,16 +92,18 @@ CREATE TABLE cjb (
 -- 查询所有学生信息
 SELECT * FROM xsb;
 ```
+```sql
 -- 查询特定学生信息（以学号为例）
 SELECT * FROM xsb WHERE 学号 = '4101220429';
-
+```
 ```sql
 -- 查询所有课程信息
 SELECT * FROM kcb;
 ```
+```sql
 -- 查询特定课程信息（以课程号为例）
 SELECT * FROM kcb WHERE 课程号 = '101';
-
+```
 ```sql
 -- 查询所有学生成绩信息
 SELECT * FROM cjb;
